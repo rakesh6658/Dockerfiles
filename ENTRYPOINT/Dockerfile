@@ -1,4 +1,4 @@
 FROM almalinux
-RUN yum install -y iputils && yum clean all
+ENTRYPOINT ["ping"]
 
-CMD ["ping", "-c", "5", "google.com"]
+CMD [ "-c", "5", "google.com"]
