@@ -1,3 +1,3 @@
 FROM almalinux
-cd /tmp
+RUN cd /tmp
 RUN touch rakesh.tx
