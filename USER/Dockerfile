@@ -1,5 +1,5 @@
 FROM almalinux
-RUN useradd rakesh
+RUN useradd -m rakesh
 USER  rakesh
 
 RUN touch rakesh.txt
