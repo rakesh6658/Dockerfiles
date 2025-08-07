@@ -1,3 +1,3 @@
 FROM almalinux
 
-ENTRYPOINT ["ping","google","-c","5"]
+ENTRYPOINT ["ping","google.com","-c","5"]
