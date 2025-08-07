@@ -1,3 +1,3 @@
 FROM almalinux
-WORKDIR  cd /tmp
+WORKDIR  /tmp
 RUN touch rakesh.txt
