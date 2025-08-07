@@ -1,3 +1,3 @@
 FROM almalinux
 
-CMD ["ping","-c","5","google.com"]
+CMD ["ping", "-c", "5", "google.com"]
